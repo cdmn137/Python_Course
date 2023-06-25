@@ -1,0 +1,14 @@
+while True:
+    edad = input("¿Cuál es tu edad? ")
+    if int(edad) < 12:
+        print("Oh, lo siento! eres muy pequeño para entrar.")
+        break
+    else:
+        print("Que Bien! ahora ho importante, la entrada cuesta 10 creditos.")
+        creditos = input("¿Cuántos créditos tienes? ")
+        if int(creditos) < 10:
+            print("Oh! Lo siento, no tienes suficientes créditos. Regresa luego.")
+            break
+        else:
+            print("Bienvenido! Que disfrutes del juego.")
+            break
